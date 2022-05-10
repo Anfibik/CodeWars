@@ -1,9 +1,13 @@
 from Kata3_6kyu import solution
+import pytest
 
-def test_solution():
-    assert solution(4) == 3
-    assert solution(6) == 8
-    assert solution(16) == 60
-    assert solution(3) == 0
-    assert solution(15) == 45
-    assert solution(200) == 9168
+
+@pytest.mark.parametrize("a, expected_result", [(4, 3), (6, 8), (16, 60), (3, 0),
+                                                (15, 45), (200, 9168,)])
+def test_solution_kata3(a, expected_result):
+    assert solution(a) == expected_result
+    assert solution(a) == expected_result
+    assert solution(a) == expected_result
+    assert solution(a) == expected_result
+    assert solution(a) == expected_result
+    assert solution(a) == expected_result
