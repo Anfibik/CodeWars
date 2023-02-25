@@ -1,4 +1,4 @@
-from Kata_3_6kyu import solution
+from Functional_Kata.Kata_3_6kyu import solution
 import pytest
 
 

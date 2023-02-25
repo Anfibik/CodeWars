@@ -1,6 +1,4 @@
-from Kata_7_4kyu import top_3_words
-import pytest
-
+from Functional_Kata.Kata_7_4kyu import top_3_words
 
 
 def test_solution_kata3():
