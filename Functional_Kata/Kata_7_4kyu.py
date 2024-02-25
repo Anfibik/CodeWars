@@ -16,6 +16,6 @@ def top_3_words(text):
     return [i[0] for i in list_d][0:3]
 
 
-
+print(top_3_words('asdfjlas;dkfjh ;laskhdf ;lashf asfjfpwa hf2-fhadwohf'))
 
 
